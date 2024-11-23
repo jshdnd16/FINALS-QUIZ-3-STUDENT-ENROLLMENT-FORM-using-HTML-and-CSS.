@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Enrollment Form</title>
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form action="">
+        <div class="instructions">
+            <h2>Instructions: </h2>
+            <ol>
+                <li>Fill in the blanks.</li>
+                <li>Check your interests.</li>
+                <li>Click "Enroll Now" to submit.</li>
+            </ol>
+        </div>
+
+        <br>
+
+        <div class="form">
+            <label for="fname">Full Name: </label>
+            <input type="text" id="fname" name="fname" placeholder="full name" required class="finput">
+
+            <br>
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="name@gmail.com" required class="einput">
+
+            <br>
+            <br>
+
+            <label for="age">Age: </label>
+            <input type="nummber" id="age" name="age" min="0" max="99" required class="ainput">
+            
+            <br>
+            <br>
+
+            <label for="Sex">Sex: </label>
+
+            <input type="radio" name="sex" value="Male" required class="radinput">
+            <label for="Male">Male</label>
+            <input type="radio" name="sex" value="Female" required class="radinput">
+            <label for="Female">Female</label>
+            
+            <br>
+            <br>
+
+            <label for="course">Course Option: </label>
+            <select required name="course" id="course" class="option">
+
+                <option value="BTVTED">Bachelor of Technical Vocational Teachers Education (BTVTED)</option>
+                <option value="ABELS">Bachelor of Arts in English Language Studies (ABELS)</option>
+                <option value="BSSW">Bachelor of Science in Social Work (BSSW)</option>
+                <option value="BSA">Bachelor of Science in Accountancy (BSA)</option>
+                <option value="BSAIS">Bachelor of Science in Accounting Information Systems (BSAIS)</option>
+                <option value="BSE">Bachelor of Science in Entrepreneurship (BSE)</option>
+                <option value="BSIT">Bachelor of Science in Information and Technology (BSIT)</option>
+                <option value="BSPA">Bachelor of Science in Public Administration (BSPA)</option>
+                <option value="DHRM">Diploma in Hotel and Restaurant Management (DHRS)</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <label>Interest: </label>
+
+            <input type="checkbox" id="Acting" name="Acting" class="cinput">
+            <label for="Acting">Acting</label>
+            
+            <input type="checkbox" id="Animal Grooming" name="Animal Grooming" class="cinput">
+            <label for="Animal Grooming">Animal Grooming</label>
+            
+            <input type="checkbox" id="Bartending" name="Bartending" class="cinput">
+            <label for="Bartending">Bartending</label>
+
+            <input type="checkbox" id="Cooking" name="Cooking" class="cinput">
+            <label for="Cooking">Cooking</label>
+            
+            <input type="checkbox" id="Dancing" name="Dancing" class="cinput">
+            <label for="Dancing">Dancing</label>
+
+            <br>
+            <br>
+            
+            <input type="checkbox" id="Data Science" name="Data Science" class="cinput">
+            <label for="Data Science">Data Science</label>
+            
+            <input type="checkbox" id="Graphic Design" name="Graphic Design" class="cinput">
+            <label for="Graphic Design">Graphic Design</label>
+            
+            <input type="checkbox" id="Music" name="Music" class="cinput">
+            <label for="Music">Music</label>
+            
+            <input type="checkbox" id="Networking" name="Networking" class="cinput">
+            <label for="Networking">Networking</label>
+            
+            <input type="checkbox" id="Singing" name="Singing" class="cinput">
+            <label for="Singing">Singing</label>
+
+            <br>
+            <br>
+            
+            <input type="checkbox" id="Sports" name="Sports" class="cinput">
+            <label for="Sports">Sports</label>
+            
+            <input type="checkbox" id="Traveling" name="Traveling" class="cinput">
+            <label for="Traveling">Traveling</label>
+
+            <input type="checkbox" id="Vlogging" name="Vlogging" class="cinput">
+            <label for="Vlogging">Vlogging</label>
+
+            <input type="checkbox" id="Video Production" name="Video Production" class="cinput">
+            <label for="Video Production">Video Production</label>
+
+            <input type="checkbox" id="Video games" name="Video games" class="cinput">
+            <label for="Video games">Video games</label>
+
+            <br>
+            <br>
+            
+            <input type="checkbox" id="Web Development" name="Web Development" class="cinput">
+            <label for="Web Development">Web Development</label>
+
+            <br>
+            <br>
+
+            <button>Enroll Now!</button>
+        </div>
+
+        <br>
+
+    </form>
+
+    <h1>List of Students Enrolled</h1>
+
+        <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Course</th>
+                <th>Interests</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>023A-12345</th>
+                <th>Aaron Fade</th>
+                <th>iamaaronfaderagao@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Graphic Design, Singing, Traveling, Vlogging, Video Game, Web Development</th>
+            </tr>
+            <tr>
+                <th>023A-12232</th>
+                <th>John Oliver</th>
+                <th>johnoliver_xb@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Graphic Design, Video Production, Video Games, Web Development</th>
+            </tr>
+            <tr>
+                <th>023A-22222</th>
+                <th>Patrick Laurence</th>
+                <th>patricklaurence_020@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Bartending, Graphic Design, Singing, Traveling, Vlogging, Video Production</th>
+            </tr>
+            <tr>
+                <th>023A-06712</th>
+                <th>Din Lienard</th>
+                <th>dinlienard_609@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Dancing, Graphic Design, Singing, Traveling, Video Games</th>
+            </tr>
+            <tr>
+                <th>023A-11110</th>
+                <th>Jeanne Nicole</th>
+                <th>jeannenicole_123@gmail.com</th>
+                <th>19</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Cooking, Graphic Design, Traveling, Web Development</th>
+            </tr>
+            <tr>
+                <th>023A-12930</th>
+                <th>Avian Cayle</th>
+                <th>aviancayle_02@gmail.com</th>
+                <th>21</th>
+                <th>Male</th>
+                <th>BSA</th>
+                <th>Acting, Dancing, Singing, Traveling, Vlogging, Video Games</th>
+            </tr>
+            <tr>
+                <th>023A-18200</th>
+                <th>Prince</th>
+                <th>prince_101@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Animal Grooming, Sports, Traveling, Video Games, Web Development</th>
+            </tr>
+            <tr>
+                <th>023A-01232</th>
+                <th>Angelica</th>
+                <th>angelica_102@gmail.com</th>
+                <th>20</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Animal Grooming, Baking, Cooking, Traveling, Vlogging</th>
+            </tr>
+            <tr>
+                <th>023A-15363</th>
+                <th>Joanne</th>
+                <th>joanne_213@gmail.com</th>
+                <th>19</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Acting, Cooking, Dancing, Music, Singing, Traveling</th>
+            </tr>
+            <tr>
+                <th>023A-15672</th>
+                <th>Sharlene Mae</th>
+                <th>sharlenemae_27@gmail.com</th>
+                <th>19</th>
+                <th>Female</th>
+                <th>BSA</th>
+                <th>Acting, Cooking, Traveling, Vlogging</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    
+</body>
+</html>
